@@ -3005,2004 +3005,678 @@ INSERT INTO City (Name, GeoLocation) VALUES ('Starodub', '(46.0614, 18.3236)'); 
     
 */
 --select * from Airport
-select * from Company
+/* Seed for Company
 
         INSERT INTO Company (CompanyID, Name)
         VALUES (1, 'AirDUMP');
     
 
         INSERT INTO Company (CompanyID, Name)
-        VALUES (2, 'Iberia');
+        VALUES (2, 'Airbus');
     
 
         INSERT INTO Company (CompanyID, Name)
-        VALUES (3, 'KLM');
+        VALUES (3, 'EasyJet');
     
 
         INSERT INTO Company (CompanyID, Name)
-        VALUES (4, 'Volotea');
+        VALUES (4, 'Croatian Airlines');
     
 
         INSERT INTO Company (CompanyID, Name)
-        VALUES (5, 'AirDUMP');
+        VALUES (5, 'ItalyFly');
     
 
         INSERT INTO Company (CompanyID, Name)
-        VALUES (6, 'Volotea');
+        VALUES (6, 'Lufthansa');
     
 
         INSERT INTO Company (CompanyID, Name)
-        VALUES (7, 'Croatian Airlines');
+        VALUES (7, 'FinnAir');
     
 
         INSERT INTO Company (CompanyID, Name)
-        VALUES (8, 'EasyJet');
+        VALUES (8, 'Iberia');
     
 
         INSERT INTO Company (CompanyID, Name)
-        VALUES (9, 'Vueling');
+        VALUES (9, 'KLM');
     
 
         INSERT INTO Company (CompanyID, Name)
-        VALUES (10, 'Volotea');
+        VALUES (10, 'Air France');
     
 
         INSERT INTO Company (CompanyID, Name)
-        VALUES (11, 'FinnAir');
+        VALUES (11, 'Vueling');
     
 
         INSERT INTO Company (CompanyID, Name)
-        VALUES (12, 'Croatian Airlines');
+        VALUES (12, 'Scandinavian Airlines');
     
 
         INSERT INTO Company (CompanyID, Name)
-        VALUES (13, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (14, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (15, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (16, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (17, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (18, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (19, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (20, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (21, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (22, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (23, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (24, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (25, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (26, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (27, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (28, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (29, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (30, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (31, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (32, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (33, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (34, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (35, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (36, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (37, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (38, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (39, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (40, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (41, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (42, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (43, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (44, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (45, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (46, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (47, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (48, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (49, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (50, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (51, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (52, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (53, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (54, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (55, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (56, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (57, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (58, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (59, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (60, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (61, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (62, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (63, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (64, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (65, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (66, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (67, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (68, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (69, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (70, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (71, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (72, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (73, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (74, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (75, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (76, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (77, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (78, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (79, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (80, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (81, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (82, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (83, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (84, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (85, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (86, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (87, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (88, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (89, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (90, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (91, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (92, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (93, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (94, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (95, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (96, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (97, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (98, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (99, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (100, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (101, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (102, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (103, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (104, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (105, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (106, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (107, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (108, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (109, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (110, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (111, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (112, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (113, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (114, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (115, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (116, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (117, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (118, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (119, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (120, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (121, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (122, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (123, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (124, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (125, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (126, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (127, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (128, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (129, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (130, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (131, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (132, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (133, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (134, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (135, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (136, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (137, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (138, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (139, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (140, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (141, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (142, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (143, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (144, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (145, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (146, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (147, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (148, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (149, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (150, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (151, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (152, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (153, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (154, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (155, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (156, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (157, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (158, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (159, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (160, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (161, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (162, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (163, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (164, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (165, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (166, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (167, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (168, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (169, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (170, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (171, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (172, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (173, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (174, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (175, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (176, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (177, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (178, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (179, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (180, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (181, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (182, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (183, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (184, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (185, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (186, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (187, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (188, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (189, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (190, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (191, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (192, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (193, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (194, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (195, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (196, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (197, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (198, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (199, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (200, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (201, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (202, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (203, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (204, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (205, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (206, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (207, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (208, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (209, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (210, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (211, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (212, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (213, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (214, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (215, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (216, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (217, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (218, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (219, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (220, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (221, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (222, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (223, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (224, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (225, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (226, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (227, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (228, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (229, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (230, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (231, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (232, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (233, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (234, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (235, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (236, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (237, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (238, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (239, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (240, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (241, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (242, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (243, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (244, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (245, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (246, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (247, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (248, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (249, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (250, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (251, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (252, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (253, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (254, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (255, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (256, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (257, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (258, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (259, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (260, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (261, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (262, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (263, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (264, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (265, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (266, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (267, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (268, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (269, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (270, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (271, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (272, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (273, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (274, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (275, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (276, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (277, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (278, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (279, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (280, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (281, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (282, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (283, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (284, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (285, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (286, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (287, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (288, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (289, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (290, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (291, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (292, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (293, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (294, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (295, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (296, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (297, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (298, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (299, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (300, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (301, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (302, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (303, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (304, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (305, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (306, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (307, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (308, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (309, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (310, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (311, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (312, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (313, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (314, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (315, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (316, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (317, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (318, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (319, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (320, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (321, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (322, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (323, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (324, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (325, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (326, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (327, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (328, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (329, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (330, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (331, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (332, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (333, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (334, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (335, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (336, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (337, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (338, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (339, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (340, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (341, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (342, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (343, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (344, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (345, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (346, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (347, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (348, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (349, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (350, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (351, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (352, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (353, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (354, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (355, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (356, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (357, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (358, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (359, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (360, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (361, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (362, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (363, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (364, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (365, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (366, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (367, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (368, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (369, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (370, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (371, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (372, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (373, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (374, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (375, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (376, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (377, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (378, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (379, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (380, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (381, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (382, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (383, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (384, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (385, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (386, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (387, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (388, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (389, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (390, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (391, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (392, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (393, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (394, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (395, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (396, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (397, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (398, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (399, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (400, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (401, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (402, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (403, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (404, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (405, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (406, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (407, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (408, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (409, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (410, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (411, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (412, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (413, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (414, 'Croatian Airlines');
-    
+        VALUES (13, 'Volotea');
+    
+*/
+
+--select * from Company
+/* Seed for Status
+select * from Status
+
+INSERT INTO Status (StatusID, Status) 
+VALUES  (1, 'For Sale'),
+    	(2, 'Active'),
+    	(3, 'For repair'),
+    	(4, 'Disassembled');
+		*/
+		
+--select * from Model
+/* seed for Model
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (1, 'StarX-1', 282);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (2, 'GalaxyElite-2', 183);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (3, 'SpeedExtreme-3', 100);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (4, 'FlyExtreme-4', 139);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (5, 'StarSuper-5', 135);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (6, 'AirElite-6', 106);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (7, 'JetExpress-7', 255);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (8, 'SkyLux-8', 144);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (9, 'AirMax-9', 292);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (10, 'FlyTurbo-10', 271);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (11, 'UltraPro-11', 223);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (12, 'SpeedElite-12', 243);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (13, 'JetMax-13', 145);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (14, 'AirExpress-14', 257);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (15, 'WingX-15', 107);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (16, 'JetPro-16', 145);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (17, 'GalaxyTurbo-17', 114);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (18, 'StarLux-18', 125);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (19, 'AirExtreme-19', 119);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (20, 'StarX-20', 201);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (21, 'EaglePlus-21', 107);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (22, 'UltraTurbo-22', 186);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (23, 'WingExpress-23', 175);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (24, 'GalaxyTurbo-24', 198);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (25, 'SkyExtreme-25', 109);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (26, 'SkyPro-26', 288);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (27, 'StarSuper-27', 117);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (28, 'AirExpress-28', 148);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (29, 'UltraSuper-29', 299);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (30, 'SkyLux-30', 251);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (31, 'WingElite-31', 129);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (32, 'WingLux-32', 234);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (33, 'WingMax-33', 238);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (34, 'WingX-34', 264);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (35, 'JetMax-35', 266);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (36, 'FlyExtreme-36', 162);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (37, 'StarElite-37', 300);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (38, 'SpeedElite-38', 134);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (39, 'SpeedLux-39', 160);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (40, 'AirExtreme-40', 226);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (41, 'EagleMax-41', 172);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (42, 'EagleMax-42', 132);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (43, 'StarExpress-43', 283);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (44, 'AirX-44', 205);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (45, 'FlyExtreme-45', 129);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (46, 'SpeedSuper-46', 144);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (47, 'AirSuper-47', 159);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (48, 'SkyLux-48', 200);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (49, 'SpeedSuper-49', 133);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (50, 'GalaxyPlus-50', 296);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (51, 'JetMax-51', 184);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (52, 'UltraX-52', 156);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (53, 'FlyExpress-53', 227);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (54, 'FlyLux-54', 193);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (55, 'FlyExtreme-55', 230);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (56, 'JetTurbo-56', 204);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (57, 'AirElite-57', 296);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (58, 'AirExpress-58', 245);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (59, 'UltraMax-59', 154);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (60, 'EagleTurbo-60', 186);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (61, 'AirLux-61', 252);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (62, 'EagleExtreme-62', 105);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (63, 'AirExtreme-63', 185);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (64, 'SkyPlus-64', 197);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (65, 'UltraPro-65', 261);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (66, 'EagleExpress-66', 276);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (67, 'UltraElite-67', 187);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (68, 'GalaxyTurbo-68', 198);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (69, 'UltraElite-69', 253);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (70, 'SpeedExtreme-70', 218);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (71, 'WingMax-71', 144);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (72, 'EagleSuper-72', 197);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (73, 'SkyExtreme-73', 109);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (74, 'EagleExpress-74', 275);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (75, 'GalaxyExtreme-75', 291);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (76, 'GalaxyExtreme-76', 234);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (77, 'FlyPro-77', 160);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (78, 'StarTurbo-78', 231);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (79, 'AirSuper-79', 104);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (80, 'EaglePlus-80', 296);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (81, 'GalaxyTurbo-81', 285);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (82, 'JetX-82', 127);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (83, 'SkyExtreme-83', 285);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (84, 'SpeedLux-84', 180);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (85, 'SkySuper-85', 200);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (86, 'UltraX-86', 284);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (87, 'JetPlus-87', 279);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (88, 'FlyLux-88', 296);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (89, 'EaglePlus-89', 162);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (90, 'UltraSuper-90', 157);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (91, 'SpeedTurbo-91', 190);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (92, 'WingMax-92', 292);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (93, 'AirExtreme-93', 271);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (94, 'GalaxySuper-94', 124);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (95, 'SkyX-95', 189);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (96, 'AirPlus-96', 264);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (97, 'WingLux-97', 270);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (98, 'SpeedMax-98', 132);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (99, 'FlyX-99', 220);
+INSERT INTO Model (ModelID, Name, MaxCapacity) VALUES (100, 'GalaxyExtreme-100', 238);
+*/
+
+/* Seed for Airplane
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_1', 71, 4, 2015);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_2', 60, 2, 2007);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_3', 44, 1, 1990);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_4', 24, 2, 1999);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_5', 89, 4, 1984);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_6', 2, 1, 1974);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_7', 22, 3, 1993);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_8', 90, 1, 1974);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_9', 69, 2, 1994);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_10', 55, 3, 1978);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_11', 20, 4, 1992);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_12', 60, 2, 2015);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_13', 38, 4, 1975);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_14', 77, 3, 2012);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_15', 57, 3, 1981);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_16', 24, 3, 1972);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_17', 7, 2, 1982);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_18', 91, 3, 1993);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_19', 12, 4, 1988);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_20', 27, 4, 2023);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_21', 61, 4, 1990);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_22', 16, 1, 2014);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_23', 56, 3, 1984);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_24', 51, 2, 2017);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_25', 27, 4, 1981);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_26', 2, 2, 2018);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_27', 42, 1, 2010);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_28', 12, 2, 2019);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_29', 78, 3, 2008);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_30', 65, 2, 2001);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_31', 85, 3, 2023);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_32', 72, 1, 1998);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_33', 1, 4, 1978);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_34', 80, 2, 1978);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_35', 77, 4, 1980);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_36', 69, 2, 1983);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_37', 35, 3, 2013);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_38', 17, 2, 1992);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_39', 84, 2, 2018);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_40', 87, 3, 2008);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_41', 3, 3, 1999);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_42', 99, 1, 1976);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_43', 64, 4, 1995);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_44', 26, 3, 1992);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_45', 10, 3, 1971);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_46', 14, 3, 2008);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_47', 80, 1, 1996);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_48', 96, 1, 1994);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_49', 56, 1, 2003);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_50', 89, 3, 1985);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_51', 85, 4, 2023);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_52', 31, 1, 2013);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_53', 84, 3, 2021);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_54', 14, 3, 1989);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_55', 75, 3, 1990);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_56', 49, 3, 1975);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_57', 51, 4, 2009);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_58', 1, 3, 1978);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_59', 87, 3, 1981);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_60', 71, 3, 2001);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_61', 64, 1, 2001);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_62', 31, 3, 2007);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_63', 83, 1, 2022);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_64', 74, 1, 2004);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_65', 64, 2, 2023);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_66', 71, 4, 2019);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_67', 53, 4, 2022);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_68', 40, 2, 1980);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_69', 90, 1, 2013);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_70', 47, 3, 2015);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_71', 27, 2, 2009);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_72', 45, 2, 1990);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_73', 2, 2, 2005);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_74', 65, 1, 2012);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_75', 92, 2, 2013);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_76', 35, 1, 2018);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_77', 12, 4, 1999);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_78', 98, 2, 1995);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_79', 54, 4, 2023);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_80', 77, 3, 1984);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_81', 72, 4, 1989);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_82', 72, 4, 1970);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_83', 81, 1, 2018);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_84', 33, 2, 1992);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_85', 23, 3, 1987);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_86', 3, 1, 2005);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_87', 66, 1, 1984);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_88', 35, 4, 1975);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_89', 38, 3, 2006);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_90', 44, 1, 1999);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_91', 95, 3, 1977);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_92', 43, 3, 2000);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_93', 79, 4, 1990);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_94', 61, 4, 1978);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_95', 65, 3, 2014);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_96', 42, 2, 2004);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_97', 90, 3, 2008);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_98', 39, 4, 1972);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_99', 61, 1, 2006);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_100', 58, 1, 1998);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_101', 75, 4, 1970);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_102', 75, 4, 2009);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_103', 70, 4, 1983);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_104', 76, 4, 1978);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_105', 16, 2, 2022);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_106', 29, 2, 1990);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_107', 33, 2, 1994);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_108', 63, 4, 1991);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_109', 3, 2, 1986);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_110', 52, 4, 2011);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_111', 60, 3, 1985);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_112', 21, 4, 1996);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_113', 83, 4, 1982);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_114', 34, 4, 2000);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_115', 78, 2, 2020);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_116', 29, 4, 2010);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_117', 40, 3, 1996);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_118', 43, 3, 2020);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_119', 44, 1, 1998);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_120', 30, 4, 2018);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_121', 55, 4, 1989);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_122', 26, 4, 2006);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_123', 14, 4, 2005);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_124', 75, 4, 1971);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_125', 3, 1, 1980);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_126', 43, 1, 2020);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_127', 20, 2, 1974);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_128', 2, 2, 1995);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_129', 53, 4, 2009);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_130', 65, 3, 1992);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_131', 51, 3, 1972);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_132', 6, 3, 1999);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_133', 69, 2, 1982);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_134', 84, 2, 1988);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_135', 57, 4, 1973);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_136', 73, 3, 2002);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_137', 20, 1, 1996);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_138', 70, 3, 1970);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_139', 96, 1, 1991);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_140', 76, 2, 1997);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_141', 59, 1, 1989);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_142', 68, 3, 1980);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_143', 62, 3, 1994);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_144', 20, 4, 1976);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_145', 34, 2, 2004);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_146', 13, 4, 2013);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_147', 3, 3, 2009);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_148', 63, 4, 1970);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_149', 86, 4, 1996);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_150', 50, 1, 2018);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_151', 27, 4, 1983);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_152', 75, 2, 2021);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_153', 30, 1, 1992);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_154', 79, 1, 2018);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_155', 76, 3, 1991);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_156', 1, 2, 1983);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_157', 57, 1, 2011);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_158', 95, 1, 1980);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_159', 26, 4, 1971);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_160', 40, 1, 2008);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_161', 25, 4, 2018);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_162', 97, 3, 2010);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_163', 60, 3, 1976);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_164', 11, 4, 2001);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_165', 79, 3, 1976);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_166', 74, 1, 1988);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_167', 70, 3, 1988);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_168', 94, 3, 2023);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_169', 54, 1, 2008);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_170', 83, 2, 2013);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_171', 64, 1, 2023);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_172', 28, 3, 2001);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_173', 54, 2, 2023);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_174', 58, 1, 2022);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_175', 35, 4, 2011);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_176', 13, 3, 2013);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_177', 70, 2, 2004);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_178', 20, 2, 1975);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_179', 42, 3, 1998);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_180', 17, 2, 1996);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_181', 67, 3, 2007);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_182', 93, 4, 1999);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_183', 79, 4, 1992);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_184', 64, 4, 2017);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_185', 4, 3, 2018);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_186', 31, 1, 1988);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_187', 5, 3, 1975);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_188', 22, 3, 1992);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_189', 30, 4, 2005);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_190', 78, 3, 1976);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_191', 10, 3, 2022);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_192', 51, 1, 2012);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_193', 73, 1, 1980);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_194', 54, 2, 1977);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_195', 35, 2, 1972);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_196', 58, 4, 1998);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_197', 83, 3, 1983);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_198', 53, 3, 2012);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_199', 84, 1, 2016);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_200', 7, 4, 1974);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_201', 85, 1, 1990);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_202', 75, 1, 2003);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_203', 25, 4, 1977);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_204', 88, 2, 1997);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_205', 81, 3, 1999);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_206', 91, 1, 2017);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_207', 33, 2, 1999);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_208', 14, 3, 2005);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_209', 19, 1, 2003);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_210', 39, 3, 1980);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_211', 36, 1, 2023);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_212', 87, 1, 2007);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_213', 8, 1, 1986);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_214', 62, 3, 1985);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_215', 83, 2, 2018);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_216', 53, 3, 2013);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_217', 64, 3, 2015);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_218', 71, 1, 1971);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_219', 61, 2, 1999);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_220', 33, 2, 2005);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_221', 41, 2, 1987);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_222', 64, 2, 2011);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_223', 49, 4, 1983);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_224', 92, 1, 2020);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_225', 22, 3, 1976);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_226', 69, 4, 2002);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_227', 65, 4, 2023);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_228', 88, 1, 2010);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_229', 9, 2, 1972);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_230', 46, 3, 1991);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_231', 26, 2, 2014);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_232', 46, 4, 1982);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_233', 93, 3, 1979);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_234', 15, 3, 1990);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_235', 73, 2, 2000);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_236', 87, 4, 1999);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_237', 61, 4, 1975);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_238', 66, 4, 1982);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_239', 55, 1, 1975);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_240', 89, 3, 1994);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_241', 72, 3, 1997);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_242', 57, 1, 1990);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_243', 91, 1, 1998);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_244', 86, 3, 2010);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_245', 60, 2, 2003);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_246', 63, 4, 1983);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_247', 24, 3, 1998);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_248', 98, 3, 2019);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_249', 50, 4, 2008);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_250', 32, 1, 2010);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_251', 71, 4, 1984);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_252', 30, 1, 2005);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_253', 9, 4, 2021);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_254', 38, 4, 1987);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_255', 64, 4, 1998);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_256', 69, 4, 2018);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_257', 26, 4, 1987);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_258', 27, 3, 1987);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_259', 7, 2, 1983);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_260', 33, 4, 1992);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_261', 74, 2, 1976);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_262', 95, 2, 1976);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_263', 82, 2, 1984);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_264', 26, 2, 2002);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_265', 73, 1, 2012);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_266', 73, 2, 1988);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_267', 5, 2, 1989);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_268', 37, 2, 1981);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_269', 28, 1, 2015);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_270', 46, 4, 1986);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_271', 95, 2, 2000);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_272', 42, 1, 1997);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_273', 81, 2, 1973);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_274', 100, 3, 1978);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_275', 21, 1, 1974);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_276', 83, 4, 1989);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_277', 10, 2, 1977);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_278', 31, 4, 2015);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_279', 1, 3, 1986);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_280', 56, 4, 2003);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_281', 45, 2, 2016);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_282', 43, 2, 2018);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_283', 25, 4, 2015);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_284', 87, 1, 2000);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_285', 39, 3, 1991);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_286', 19, 2, 2002);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_287', 24, 1, 1981);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_288', 30, 4, 2010);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_289', 92, 3, 1996);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_290', 46, 4, 2006);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_291', 83, 4, 2005);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_292', 89, 4, 1979);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_293', 24, 2, 2020);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_294', 96, 2, 2017);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_295', 23, 4, 1984);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_296', 98, 1, 2002);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_297', 40, 3, 2015);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_298', 39, 4, 1997);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_299', 69, 1, 1977);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_300', 20, 3, 1982);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_301', 95, 2, 2014);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_302', 94, 3, 1970);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_303', 25, 1, 2003);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_304', 19, 1, 1994);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_305', 41, 3, 2021);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_306', 45, 3, 1986);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_307', 62, 3, 2015);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_308', 68, 1, 1998);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_309', 74, 4, 2016);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_310', 78, 1, 2023);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_311', 77, 4, 2018);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_312', 69, 2, 1978);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_313', 66, 1, 1993);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_314', 86, 4, 1973);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_315', 15, 4, 1971);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_316', 13, 2, 1978);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_317', 96, 4, 1989);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_318', 90, 4, 2023);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_319', 88, 4, 2001);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_320', 6, 2, 2011);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_321', 79, 3, 2009);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_322', 34, 2, 1980);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_323', 14, 4, 2021);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_324', 11, 1, 1987);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_325', 31, 4, 2004);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_326', 90, 1, 2003);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_327', 86, 1, 1974);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_328', 7, 3, 2008);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_329', 99, 1, 1997);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_330', 89, 4, 1974);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_331', 66, 2, 1990);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_332', 78, 2, 1972);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_333', 34, 2, 1991);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_334', 9, 2, 2022);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_335', 78, 2, 1986);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_336', 75, 3, 1971);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_337', 16, 3, 1973);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_338', 54, 3, 2023);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_339', 39, 4, 1979);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_340', 35, 4, 2013);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_341', 13, 2, 2022);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_342', 13, 3, 2004);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_343', 43, 4, 1979);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_344', 49, 1, 1984);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_345', 97, 1, 1975);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_346', 61, 3, 1977);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_347', 90, 2, 1975);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_348', 47, 4, 1987);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_349', 43, 2, 2021);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_350', 2, 2, 2001);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_351', 99, 1, 2021);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_352', 68, 4, 1972);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_353', 66, 2, 2022);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_354', 28, 4, 1971);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_355', 6, 4, 1974);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_356', 31, 3, 2000);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_357', 83, 4, 2010);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_358', 53, 1, 2019);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_359', 71, 1, 2016);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_360', 86, 2, 1994);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_361', 33, 3, 1997);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_362', 77, 3, 2021);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_363', 90, 2, 2010);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_364', 81, 3, 1980);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_365', 27, 1, 1971);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_366', 5, 1, 1997);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_367', 92, 3, 1978);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_368', 66, 3, 2000);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_369', 19, 3, 2022);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_370', 75, 3, 1981);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_371', 51, 4, 1977);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_372', 41, 4, 2022);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_373', 51, 1, 2022);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_374', 22, 3, 2013);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_375', 14, 4, 1973);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_376', 14, 4, 1978);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_377', 39, 2, 2015);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_378', 83, 2, 1998);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_379', 82, 4, 2019);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_380', 78, 4, 2015);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_381', 25, 1, 1973);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_382', 73, 2, 1977);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_383', 14, 2, 1985);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_384', 88, 2, 1990);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_385', 55, 3, 2007);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_386', 17, 1, 1971);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_387', 91, 3, 1987);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_388', 62, 4, 2020);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_389', 53, 3, 1986);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_390', 53, 2, 2010);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_391', 72, 1, 2005);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_392', 43, 1, 1989);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_393', 12, 1, 1996);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_394', 1, 4, 1990);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_395', 74, 2, 2015);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_396', 31, 1, 1991);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_397', 92, 4, 1970);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_398', 15, 3, 1978);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_399', 55, 1, 2017);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_400', 5, 1, 2001);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_401', 69, 2, 2003);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_402', 94, 3, 2014);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_403', 87, 2, 1979);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_404', 43, 2, 1974);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_405', 79, 1, 2007);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_406', 69, 4, 2006);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_407', 41, 1, 1981);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_408', 35, 2, 2007);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_409', 82, 4, 1970);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_410', 70, 4, 1982);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_411', 84, 4, 1982);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_412', 91, 3, 1981);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_413', 93, 3, 2013);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_414', 81, 1, 2014);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_415', 62, 1, 2000);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_416', 34, 4, 2016);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_417', 47, 4, 1992);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_418', 13, 2, 1978);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_419', 28, 3, 1999);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_420', 66, 4, 1996);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_421', 48, 1, 1978);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_422', 43, 2, 1989);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_423', 8, 3, 2003);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_424', 68, 4, 1990);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_425', 3, 4, 1994);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_426', 39, 1, 1976);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_427', 69, 2, 1985);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_428', 18, 2, 2014);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_429', 87, 1, 2008);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_430', 72, 2, 1989);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_431', 80, 2, 1991);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_432', 66, 1, 1993);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_433', 98, 4, 1980);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_434', 26, 3, 2009);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_435', 33, 4, 1995);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_436', 43, 4, 1983);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_437', 72, 3, 1981);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_438', 60, 4, 2005);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_439', 63, 3, 1971);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_440', 42, 3, 1984);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_441', 42, 3, 2000);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_442', 90, 1, 2010);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_443', 37, 2, 1971);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_444', 48, 2, 2005);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_445', 13, 4, 1990);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_446', 80, 3, 2019);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_447', 20, 2, 1971);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_448', 6, 3, 2011);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_449', 24, 3, 1991);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_450', 14, 3, 1995);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_451', 32, 2, 1981);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_452', 11, 1, 1981);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_453', 1, 3, 2001);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_454', 55, 1, 2021);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_455', 85, 1, 1984);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_456', 98, 4, 1997);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_457', 62, 2, 1978);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_458', 73, 1, 2006);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_459', 39, 1, 1994);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_460', 60, 3, 1989);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_461', 60, 4, 2022);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_462', 48, 3, 1988);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_463', 99, 1, 1994);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_464', 100, 2, 1976);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_465', 81, 1, 2022);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_466', 89, 4, 2011);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_467', 28, 1, 2012);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_468', 86, 1, 2013);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_469', 16, 1, 2021);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_470', 40, 3, 1973);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_471', 82, 1, 2018);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_472', 46, 3, 1992);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_473', 69, 3, 1995);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_474', 12, 3, 1971);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_475', 89, 3, 2000);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_476', 46, 4, 1976);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_477', 97, 4, 2017);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_478', 73, 1, 1977);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_479', 28, 4, 1990);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_480', 14, 4, 1974);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_481', 70, 1, 2021);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_482', 35, 2, 1991);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_483', 8, 1, 1975);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_484', 77, 1, 1975);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_485', 67, 2, 2012);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_486', 42, 3, 2007);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_487', 43, 4, 2009);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_488', 59, 4, 2020);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_489', 94, 4, 2005);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_490', 45, 1, 1978);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_491', 71, 2, 1976);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_492', 73, 3, 1981);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_493', 86, 4, 1983);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_494', 78, 2, 2020);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_495', 84, 4, 2023);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_496', 58, 2, 2021);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_497', 91, 3, 1983);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_498', 29, 4, 1977);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_499', 8, 2, 1985);
+INSERT INTO Airplane (Name, ModelID, StatusID, YearOfManufacture) VALUES ('Airplane_500', 89, 3, 2020);
+*/
+
+--select * from airplane
 
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (415, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (416, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (417, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (418, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (419, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (420, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (421, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (422, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (423, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (424, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (425, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (426, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (427, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (428, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (429, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (430, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (431, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (432, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (433, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (434, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (435, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (436, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (437, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (438, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (439, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (440, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (441, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (442, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (443, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (444, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (445, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (446, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (447, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (448, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (449, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (450, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (451, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (452, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (453, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (454, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (455, 'Volotea');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (456, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (457, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (458, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (459, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (460, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (461, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (462, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (463, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (464, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (465, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (466, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (467, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (468, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (469, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (470, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (471, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (472, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (473, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (474, 'Air France');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (475, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (476, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (477, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (478, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (479, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (480, 'Scandinavian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (481, 'Airbus');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (482, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (483, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (484, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (485, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (486, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (487, 'FinnAir');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (488, 'Iberia');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (489, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (490, 'Vueling');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (491, 'Croatian Airlines');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (492, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (493, 'KLM');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (494, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (495, 'ItalyFly');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (496, 'Lufthansa');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (497, 'EasyJet');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (498, 'AirDUMP');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (499, 'Ryan Air');
-    
-
-        INSERT INTO Company (CompanyID, Name)
-        VALUES (500, 'AirDUMP');
-    
