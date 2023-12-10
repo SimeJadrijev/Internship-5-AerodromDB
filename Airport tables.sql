@@ -101,3 +101,8 @@ create table Review (
 	GradeID int references Grade(GradeID),
 	Comment varchar(50)
 )
+create table LoyaltyCard (
+	LoyaltyCardID serial primary key,
+	CustomerID int references Customer(CustomerID),
+	ExpirationDate timestamp 
+)
