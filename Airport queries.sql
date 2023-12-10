@@ -85,7 +85,26 @@ WHERE PositionID = (SELECT PositionID FROM Position WHERE Name = 'Pilot')
                ) > 10
 );
 
+--razmontirajte avione starije od 20 godina koji nemaju letove pred sobom
+UPDATE Airplane
+SET StatusID = (SELECT StatusID FROM Status WHERE Condition = 'Razmontiran')
+WHERE YearOfManufacture < EXTRACT(YEAR FROM CURRENT_DATE) - 20
+      AND AirplaneID NOT IN (SELECT DISTINCT AirplaneID FROM Flight WHERE DateOfDeparture > CURRENT_DATE);
 
+--izbrišite sve letove koji nemaju ni jednu prodanu kartu
+DELETE FROM Flight
+WHERE (SELECT COUNT(*) FROM Ticket WHERE Ticket.FlightID = Flight.FlightID) = 0;
+
+--izbrišite sve kartice vjernosti putnika čije prezime završava na -ov/a, -in/a
+DELETE FROM LoyaltyCard
+WHERE CustomerID IN (
+    SELECT CustomerID
+    FROM Customer
+    WHERE Surname LIKE '%ov' 
+		OR Surname LIKE '%ova' 
+		OR Surname LIKE '%in' 
+		OR Surname LIKE '%ina'
+);
 
 
 
