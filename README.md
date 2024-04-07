@@ -14,7 +14,7 @@ This project was built in ***PostgreSQL*** management system.
 
 1. Clone the repository
 ```bash
-git clone git@github.com:SimeJadrijev/Internship-5-AerodromDB.git
+git clone https://github.com/SimeJadrijev/Internship-5-AerodromDB.git
  ```
 2. Create a new empty database using pgAdmin
 
